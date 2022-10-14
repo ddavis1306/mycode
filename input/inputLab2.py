@@ -1,7 +1,13 @@
 #!/usr/bin/env Python3
 
+import ssl
+
 
 def main():
-    user_input = input("please enter an ip addr: ")
-    print("your ip addr is: " + user_input)
+    vendor_input = input("iphone or android: ")
+    print(vendor_input)
+    if(vendor_input == "iphone" or "android"):
+        print("good choice! I love, " + vendor_input);
+    else:
+            print("please enter valid answer")
 main()
