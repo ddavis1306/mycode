@@ -9,5 +9,3 @@ def main():
     day_is = input("Hi, " + name_is + "! " + "What day of the week is it? ")
     print("Hello, " + name_is + " Happy " + day_is + "!")
 main()
-zlearn = "this is my string"
-print(zlearn + " and this is my thing")
