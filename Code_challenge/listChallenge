@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+""" LIST CHALLENGE """
+import random
+heroes= ["Spiderman", "Batman", "Black Panther", "Wonder Woman", "Storm"]
+
+# PART 1
+# Print out your favorite character from this list! The output would look something like:
+
+# My favorite character is Black Panther!
+rando_hero = random.choice(heroes)
+print(f"My fav hero is {rando_hero}")
+
+# PART 2
+# Ask the user to pick a number between 1 and 100.
+# Convert the input into an integer.
+nums= [1, -5, 56, 987, 0]
+hero_nums = int(input(f"Hey, {rando_hero} pick a number: \n"))
+nums.append(hero_nums)
+print(f"this is the largest int in nums: {max(nums)}")
+
+# PART 3
+# check out https://docs.python.org/3/library/functions.html or go to Google
+# use a built-in function to find which integer in nums is the biggest.
+# then, print out that number!
+
