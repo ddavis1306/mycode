@@ -1,5 +1,7 @@
 #!/bin/env/ Python3
 
+
+
 mystring = "Hi my name is"
 picky = "picky picky"
 slim = "slim SHADY"
@@ -19,4 +21,8 @@ spacedCave = "          TONS OF SPACE HERE"
 print(spacedCave)
 print(spacedCave.strip().lower())
 print(spacedCave.startswith(" "))
+
+name = "Bill"
+age = 69
+print("Hello, {0}. You are {1}.".format(name, age))
 
