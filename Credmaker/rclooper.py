@@ -4,11 +4,11 @@
 
 import csv
 
-with open("/Users/darryldavis/mycode/mycode/Credmaker/rclooper.py", "r") as csv_file:
+with open("/home/student/mycode/Credmaker/csv_users.txt", "r") as csv_file:
     i = 0
     for row in csv.reader(csv_file):
         i = i + 1
-        filename = f"admin.rc{i}"
+        filename = f"AdminRCs/admin.rc{i}"
 
         with open(filename, "w") as rcfile:
              print("export OS_AUTH_URL=" + row[0], file=rcfile)
@@ -18,8 +18,7 @@ with open("/Users/darryldavis/mycode/mycode/Credmaker/rclooper.py", "r") as csv_
              print("export OS_USERNAME=" + row[3], file=rcfile)
              print("export OS_USER_DOMAIN_NAME=" + row[4], file=rcfile)
              print("export OS_PASSWORD=" + row[5], file=rcfile)
-
-# print(f"{i} admin.rc files created")
+             print(f"{i} admin.rc file created")
 
 # !/usr/bin/env python3
 # """RZFeeser@alta3.com | Alta3 Research
