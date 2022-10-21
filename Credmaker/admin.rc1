@@ -1,0 +1,2 @@
+export OS_AUTH_URL=#!/usr/bin/env python3
+export OS_IDENTITY_API_VERSION=3
