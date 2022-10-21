@@ -15,4 +15,4 @@ for svr in dnslist:
     print(svr, end="")#the txt file already has line breaks
 
 #close file
-dnsfile.close()
+dnsfile.close()#best practice is to close file
